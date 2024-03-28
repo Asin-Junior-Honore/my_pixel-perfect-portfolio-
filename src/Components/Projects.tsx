@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { BiNavigation } from 'react-icons/bi';
 import { motion } from 'framer-motion'; // Import motion from framer-motion
@@ -26,8 +25,9 @@ const Projects = () => {
         {projectData.map((project, index) => (
           <motion.div
             key={index}
-            className='projects-holder rounded-lg p-4'
+            className='projects-holder rounded-lg p-4 cursor-default'
             whileHover={{ scale: 1.05 }} // Scale animation on hover
+            whileInView="onscreen"
             initial={{ opacity: 0, x: index % 2 === 0 ? -200 : 200 }} // Initial animation settings for sliding effect
             animate={{ opacity: 1, x: 0 }} // Animation settings when component mounts
             transition={{ duration: 0.5, delay: index * 0.1 }} // Animation transition duration and delay

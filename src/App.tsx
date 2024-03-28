@@ -101,7 +101,7 @@ function App() {
 
         <div className={navbar ? 'navbar active py-3 bg-clip-padding blur-background-filter flex justify-between items-center bg-opacity-80 px-7' : 'navbar flex justify-between items-center bg-opacity-80  py-10 px-7'}>
           <div className='logo'>
-            <h1 className='text-white text-4xl font-bold' >Asin</h1>
+            <h1 className='text-white text-5xl font-bold' >Asin</h1>
           </div>
           <div className='navs'>
             <ul className='flex m-0 p-0 justify-center '>

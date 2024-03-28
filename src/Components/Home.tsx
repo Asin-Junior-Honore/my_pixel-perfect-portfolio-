@@ -1,4 +1,3 @@
-import React from 'react'
 import honore from "../Assets/Dev-Honore.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from '@fortawesome/free-regular-svg-icons';
