@@ -106,7 +106,7 @@
   }
 
   .p-desc span {
-    @apply font-semibold text-xl text-[#ff014f] mb-2 inline-block;
+    @apply font-semibold text-xl text-[#ea0e52] mb-2 inline-block;
   }
   #ipadress {
     height: 240px;
@@ -184,6 +184,6 @@
   }
 
   .burger-menu {
-    @apply text-white text-[40px] hidden;
+    @apply bg-[#ff014f] text-[40px] hidden;
   }
 }

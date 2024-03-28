@@ -1,5 +1,5 @@
 import restaurant from '../Assets/restauimage.jpg';
-import entertatinment from '../Assets/entertainment-image.jpg';
+import Traed from '../Assets/Hero V1.png';
 import urlshortener from '../Assets/url2.jpg';
 import ipadresstracker from '../Assets/ipaddrestracker-image.jpg';
 import audiophile from '../Assets/audiophile.webp';
@@ -45,11 +45,11 @@ import linksharingapp from '../Assets/linksharingapp.jpg';
       description: 'Perfect for social media sharing or optimizing character-limited spaces, our URL Shortener project simplifies link management, making it an essential tool for digital marketers, social media enthusiasts, and anyone looking to share information efficiently. Shorten your links, amplify your reach!'
     },
     {
-      image: entertatinment,
+      image: Traed,
       githubLink: 'https://github.com/Asin-Junior-Honore/Entertainment-webapp.git',
-      liveLink: 'https://entertainment-webapp-honore.netlify.app',
-      title: 'Entertainment WebApp',
-      description: 'Embark on a cinematic journey with our Movie App project, where you can seamlessly search and discover your favorite movies and TV shows. This user-friendly platform allows you to curate your personalized watchlist by adding selections to bookmarks for easy access.'
+      liveLink: 'https://terchify-intern-shipapp-by-asin-tech.netlify.app',
+      title: 'Traed website',
+      description:"At Tech Certify Solutions, I interned on Traed, a platform simplifying trading. We crafted a modern, user-friendly interface, empowering users to manage investments seamlessly. Our collaborative effort resulted in intuitive features for informed decision-making. Traed reflects our commitment to innovative solutions. This experience enhanced my development skills and deepened my understanding of both domains."
     },
     {
       image: ipadresstracker,

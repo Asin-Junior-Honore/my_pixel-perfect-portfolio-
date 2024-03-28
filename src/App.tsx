@@ -142,8 +142,7 @@ function App() {
               <button className='contactbtn btn-box-shadow py-3 px-6 rounded-md btn-hover'>Contact me</button>
             </Link>
           </div>
-
-          <RiMenu3Fill className='burger-menu pointer' onClick={toggleMenu} />
+          <RiMenu3Fill className='burger-menu  cursor-pointer' onClick={toggleMenu} />
 
           <AnimatePresence>
 
