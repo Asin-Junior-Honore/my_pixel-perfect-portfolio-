@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .li {
+    @apply relative ml-10 text-gray-400 font-bold tracking-[1px] hover:text-white;
+  }
+  .li::after {
+    @apply content-[''] bg-[#ff014f] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
+  }
+  .li:hover::after {
+    @apply w-[100%];
+  }
+  .btn-box-shadow {
+    color: #ff014f;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  }
+  .btn-hover {
+    @apply relative transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#ea0e52] before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 z-20 rounded-lg;
+  }
+  .text-color {
+    color: #ff014f;
+  }
+  .p-padding {
+    @apply lg:py-24 lg:px-14 py-16 px-14;
+  }
+  .border {
+    @apply border-t-2 border-black;
+  }
+  .mynameb1 {
+    padding: 15px 70px 10px 15px;
+  }
+  .mediadetails {
+    @apply flex space-y-5 items-end text-lg font-medium text-white;
+  }
+  .mydetailsb2 {
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  }
+  .mediadetails p {
+    @apply font-normal text-[#c4cfde];
+  }
+  .imgholder {
+    margin: auto;
+    width: 658px;
+    height: 600px;
+    padding: 30px 30px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  }
+  .projects-holder {
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  }
+  .aboutmeimage {
+    padding: 18px 25px;
+  }
+  .image {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    cursor: pointer;
+  }
+  .icons {
+    @apply text-[#ff014f] text-3xl mr-3 font-normal cursor-pointer;
+  }
+  .iconu {
+    @apply text-white text-xl font-medium p-3 rounded-full bg-red-600;
+  }
+  .aboutmepara {
+    @apply font-normal text-sm leading-6 text-[#c4cfde];
+  }
+
+  .aboutmeimage {
+    width: 440px;
+    height: 500px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  }
+  .box::before {
+    @apply content-[''] absolute bg-[conic-gradient(#04b0ee_20deg,transparent_120deg)] w-[300px] h-[300px] top-[-25%] left-[-25%] animate-fullSpin;
+  }
+  .box::after {
+    @apply content-[''] text-white w-[94%] h-[94%] bg-[#212428] absolute top-[3%] left-[3%] flex justify-center items-center tracking-[2px];
+  }
+  .box {
+    @apply relative w-[150px] h-[150px] bg-[#212428] overflow-hidden flex justify-center items-center rounded-[5px] cursor-pointer;
+  }
+  .ricons {
+    @apply text-white text-[2.5rem] absolute z-40 text-center;
+  }
+  .icons-name {
+    @apply text-white text-sm;
+  }
+
+  .project-icon {
+    @apply p-[8px] text-[39px] bg-[black]  text-[white] rounded-full mr-2 cursor-pointer hover:text-[#ff014f];
+  }
+
+  .p-desc {
+    font-size: 15px;
+    line-height: 23px;
+    color: #c4cfde;
+  }
+
+  .p-desc span {
+    @apply font-semibold text-xl text-[#ff014f] mb-5;
+  }
+  #ipadress {
+    height: 240px;
+  }
+  .social {
+    @apply p-[10px] text-[35px] text-gray-200  mr-4 rounded-md cursor-pointer;
+  }
+
+  .contactme-div {
+    width: 380px;
+    margin-bottom: 10px;
+  }
+  form {
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  }
+  input,
+  textarea {
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset,
+      -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    background-color: #191b1e;
+    border-radius: 3px;
+    resize: none;
+  }
+  input:focus {
+    outline-color: #ff014f;
+    outline-style: solid;
+    outline-width: 2px;
+    transition: outline 0.2s ease-in;
+  }
+  #text,
+  #number {
+    width: 300px;
+    padding: 10px;
+  }
+  #email,
+  #subject {
+    padding: 10px;
+    width: 100%;
+  }
+  label {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+
+  .bshadow1 {
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+  }
+  .App {
+    background-color: #212428;
+  }
+  .contact1 p {
+    color: #c4cfde;
+  }
+  .contact1 {
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    color: #c4cfde;
+  }
+  .navbar.active {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(33, 36, 40, 0.8705882353);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: 0.3s ease-in-out;
+  }
+
+  .burger-menu {
+    @apply text-white text-[40px] hidden;
+  }
+
+  /* 
+  --background-color-1:;
+    --background-color-2: #212428;
+    --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+    
+    
+    
+    
+    --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+    --background-color-2: #212428;
+    --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+        --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    */
+}

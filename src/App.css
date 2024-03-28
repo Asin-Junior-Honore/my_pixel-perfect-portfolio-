@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.navappear {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  div#Home {
+    width: fit-content;
+    margin: auto;
+  }
+  div#About {
+    justify-content: center;
+  }
+  .aboutmewriteup {
+    width: auto;
+  }
+  .iconsparent {
+    width: fit-content;
+    margin: auto;
+    gap: 5rem;
+    margin-top: 5em;
+  }
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, auto));
+    place-items: center;
+  }
+  .projects-holder {
+    width: 50%;
+  }
+  .contact {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .burger-menu {
+    display: block;
+    margin-right: 40px;
+    color: #c4cfde;
+  }
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px 15px 20px;
+    width: 100%;
+  }
+  .navappear {
+    display: block;
+  }
+  .navs {
+    width: 100%;
+    display: none;
+    transition: all 0.4s ease;
+  }
+
+  div#Home {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .honore {
+    width: auto;
+    min-width: 95%;
+  }
+  #Home,
+  #About,
+  #Skills,
+  #Contact,
+  #Projects {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .honore br {
+    content: " ";
+  }
+  .honore br::after {
+    content: " ";
+  }
+
+  div#About {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .aboutmeimage,
+  .imgholder {
+    width: auto;
+    height: auto;
+  }
+  .aboutmewriteup {
+    width: auto;
+    margin-left: 1em;
+  }
+
+  .aboutmewriteup br {
+    content: " ";
+  }
+  .aboutmewriteup br::after {
+    content: " ";
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact1 {
+    width: auto;
+    min-width: 95%;
+  }
+  .contact1 br {
+    content: " ";
+  }
+  .contact1 br::after {
+    content: " ";
+  }
+  .contactme-div {
+    width: auto;
+  }
+  form {
+    margin-top: 2em;
+  }
+
+  .contactbtn {
+    display: none;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .burger-menu {
+    display: block;
+    margin-right: 20px;
+    color: #c4cfde;
+  }
+  .navappear {
+    display: block;
+  }
+
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+  }
+
+  .navs {
+    width: 100%;
+    display: none;
+    transition: all 0.4s ease;
+  }
+  .contactbtn {
+    display: none;
+  }
+  div#Home,
+  #About {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .imgholder,
+  .aboutmeimage {
+    height: auto;
+    width: auto;
+  }
+
+  #Home,
+  #About,
+  #Skills,
+  #Contact,
+  #Projects {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .honore {
+    width: auto;
+    min-width: 95%;
+  }
+
+  .aboutmewriteup {
+    width: 22rem;
+    text-align: center;
+  }
+  .aboutmewriteup br {
+    content: " ";
+  }
+  .aboutmewriteup br::after {
+    content: " ";
+  }
+
+  .important {
+    display: block;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iconsparent {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .App {
+    overflow: hidden;
+  }
+  .p-desc {
+    text-align: center;
+    font-weight: 100;
+  }
+  .contactme-div {
+    width: auto;
+  }
+
+  .glinks {
+    display: flex;
+    justify-content: space-between;
+  }
+  form {
+    margin-top: 2em;
+  }
+}
