@@ -46,7 +46,7 @@ import linksharingapp from '../Assets/linksharingapp.jpg';
     },
     {
       image: Traed,
-      githubLink: 'https://github.com/Asin-Junior-Honore/Entertainment-webapp.git',
+      githubLink: 'https://github.com/Asin-Junior-Honore/publicrepofortraed_website',
       liveLink: 'https://terchify-intern-shipapp-by-asin-tech.netlify.app',
       title: 'Traed website',
       description:"At Tech Certify Solutions, I interned on Traed, a platform simplifying trading. We crafted a modern, user-friendly interface, empowering users to manage investments seamlessly. Our collaborative effort resulted in intuitive features for informed decision-making. Traed reflects our commitment to innovative solutions. This experience enhanced my development skills and deepened my understanding of both domains."

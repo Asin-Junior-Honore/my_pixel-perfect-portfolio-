@@ -1,7 +1,7 @@
 import { FaHtml5, FaReact, FaFigma, FaGitAlt, FaGithub, FaNpm } from 'react-icons/fa';
 import { SiCss3, SiJavascript, SiTypescript, SiTailwindcss } from 'react-icons/si';
 import { FiFramer } from 'react-icons/fi';
-import { TiFlowSwitch } from 'react-icons/ti'; // Imported next to use TiFlowSwitch as the icon for Next.js
+import { TbBrandNextjs } from "react-icons/tb"; // Imported next to use TiFlowSwitch as the icon for Next.js
 import { motion } from 'framer-motion';
 
 const Skills = () => {
@@ -18,7 +18,7 @@ const Skills = () => {
     { id: 9, icon: <FaGitAlt />, name: "Git" },
     { id: 10, icon: <FaGithub />, name: "Github" },
     { id: 11, icon: <FaNpm />, name: "N.P.manager" },
-    { id: 12, icon: <TiFlowSwitch />, name: "Next.js" }, // Replaced <TbApi /> with <TiFlowSwitch /> for Next.js
+    { id: 12, icon: <TbBrandNextjs />, name: "Next.js" },
   ];
 
 
