@@ -52,3 +52,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 This repository represents version one of my first personal portfolio project. It's a simple React application built with React, TypeScript, and Tailwind CSS. The project also utilizes Yup for form validation and ensures responsiveness across different devices.
 
 🚀 Despite being my initial attempt, I'm excited to share my journey and continue improving my portfolio over time. Stay tuned for more updates!
+
+You can check my latest and newest portfolio on [my GitHub profile](https://github.com/Asin-Junior-Honore). 🌟
